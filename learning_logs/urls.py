@@ -14,3 +14,4 @@ urlpatterns = [
     # Страница с подробной информацией по отдельной теме
     path('topics/<int:topic_id>/', views.topic, name='topic'),
 ]
+# Something new
